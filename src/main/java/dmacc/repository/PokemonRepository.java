@@ -11,6 +11,7 @@ import dmacc.beans.Pokemon;
  * CIS175 - Spring 2023
  * Feb 27, 2023
  */
+@Repository
 public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
 
 }
